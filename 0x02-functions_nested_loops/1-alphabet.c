@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*main - This program will print putchar
+*main - This program will print alphabet 27 of them
 *
 *Return: Always 0 (success)
 */
