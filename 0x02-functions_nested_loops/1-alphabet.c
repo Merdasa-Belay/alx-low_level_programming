@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*main - This program will print alphabet 27 of them
+*print_alphabet - prints the lowercase alphabets
 *
 *Return: Always 0 (success)
 */
