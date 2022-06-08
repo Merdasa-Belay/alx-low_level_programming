@@ -11,9 +11,7 @@
  {
  for (j = 0;j <= 9;j++)
  {
- int n;
- n = i * j;
- _putchar("%d%", n)
+ _putchar("%d * %d", i, j);
  }
  _putchar("\n");
  }
