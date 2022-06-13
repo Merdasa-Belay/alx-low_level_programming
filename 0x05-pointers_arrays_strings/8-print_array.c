@@ -4,6 +4,7 @@
 /**
   * print_array - prints n element of an array of integers
   * @a: is a string
+  * @n: is an element
 */
 void print_array(int *a, int n)
 {
