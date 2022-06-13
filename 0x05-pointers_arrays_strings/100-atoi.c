@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   *_atoi - converts a string to an integer
-  *@s:is string 
+  *@s:is string
   *Return: returns i* n
 */
 int _atoi(char *s)
@@ -21,5 +21,5 @@ break;
 else if (*s == '-')
 n = n * -1;
 }
-return (i * n);
+return (i *n);
 }
