@@ -8,7 +8,8 @@
 */
 int main(void)
 {
-int r = , c= 0;
+int r = 0;
+int c= 0;
 time_t t;
 srand((unsigned int) time(&t));
 while (c < 2772)
@@ -21,5 +22,4 @@ printf("%c", r);
 }
 printf("%c\n", (2772 - c));
 return (0);
-}
 }
