@@ -3,7 +3,6 @@
 /**
  * print_buffer - prints a buffer
  * @b: is pointer
- * 
  */
 void print_buffer(char *b, int size)
 {
