@@ -1,27 +1,27 @@
 #include "main.h"
 /**
  * cap_string - capitalizes all words of a string
- * @str: Pointer
+ * @x: Pointer
  * Return: poniter returns
  */
 
-
-
-char *cap_string(char *str)
+char *cap_string(char *x)
 {
-int symb[14] = {' ', '\t', '\n', ',', ';', '.', '!',
-'?', '"', '(', ')', '{', '}'};
-int i, j;
 
-for (i = 0; str[i] != '\0'; i++)
+char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+int len = 13;
+int a = 0, i;
+
+while (x[a])
 {
-if (str[0] >= 97 && str[0] <= 122)
+i = 0;
+while (i < len)
 {
-str[0] = str[0] - 32;
+if ((a == 0 || x[a - 1] == spc[i]) && (x[a] >= 97 && x[a] <= 122))
+x[a] = x[a] - 32;
+i++;
 }
-for (j = 0; j < 14; j++)
-if (str[i] >= 97 && str[i] <= 122 && str[i - 1] == symb[j])
-str[i] = str[i] - 32;
+a++;
 }
-return (str);
+return (x);
 }
