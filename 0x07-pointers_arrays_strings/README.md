@@ -30,3 +30,5 @@ Returns a pointer to the beginning of the located substring, or NULL if the subs
 Prototype: void print_chessboard(char (*a)[8]);
 File: 8-print_diagsums.c Write a function that prints the sum of the two diagonals of a square matrix of integers.
 Prototype: void print_diagsums(int *a, int size);
+File: 100-set_string.c Write a function that sets the value of a pointer to a char.
+Prototype: void set_string(char **s, char *to);
