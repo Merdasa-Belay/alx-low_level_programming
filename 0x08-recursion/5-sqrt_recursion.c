@@ -1,7 +1,7 @@
 #include "main.h"
 #include <math.h>
 /**
- * _sqrt_recursion -  returns the natural square 
+ * _sqrt_recursion -  returns the natural square
  * @a: is a number
  * @b: is a number
  * Return: On success 1.
