@@ -1,0 +1,1 @@
+File: libmy.a, main.h reate the static library libmy.a containing all the functions 
